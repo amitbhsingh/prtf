@@ -12,12 +12,14 @@ function Home(){
         <LinkedInIcon />
         <GithubIcon />
         <EmailIcon />
+        </div>
         
         </div>
+        <div className='skills'>
 
-      </div>
-      <h1> S  k  i  l  l  s</h1>
-      <ul className='list'>
+      
+      <h1> Skills</h1>
+      <ol className='list'>
         <li className='item'>
           <h2>Front-End</h2>
           <span>HTML, CSS, Javascript & ReactJS</span>
@@ -34,7 +36,8 @@ function Home(){
           <h2>Languages</h2>
           <span>Javascript, R, Python, Typescript</span>
         </li>
-      </ul>
+      </ol>
+    </div>
     </div>
   )
 }
