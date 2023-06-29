@@ -13,9 +13,9 @@ const Footer = () => {
       <div className='socialMedia'>
         {/* <InstagramIcon />
         <TwitterIcon /> */}
-        <LinkedInIcon />
-        <GithubIcon /> 
-        <EmailIcon />
+        <Link to="https://www.linkedin.com/in/amitbhsingh/"><LinkedInIcon /></Link>
+        <Link to="https://github.com/amitbhsingh"><GithubIcon /></Link>
+        <Link to="mailto:amit.bh.singh@gmail.com"><EmailIcon /></Link>
       </div>
       <p>&copy; 2023</p>
       <Link className='insta'></Link>

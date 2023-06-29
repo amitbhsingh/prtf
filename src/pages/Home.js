@@ -2,6 +2,7 @@ import React from 'react'
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GithubIcon from '@material-ui/icons/GitHub';
 import EmailIcon from '@material-ui/icons/Email';
+import { Link } from 'react-router-dom';
 import '../styles/Home.css'
 function Home(){
   return (
@@ -9,9 +10,9 @@ function Home(){
       <div className='about'>
         <h2>Hi, This is Amit</h2>
         <div className='prompt'><p>A software developer with a passion for helping,learning and creating</p>
-        <LinkedInIcon />
-        <GithubIcon />
-        <EmailIcon />
+        <Link to="https://www.linkedin.com/in/amitbhsingh/"><LinkedInIcon /></Link>
+        <Link to="https://github.com/amitbhsingh"><GithubIcon /></Link>
+        <Link to="mailto:amit.bh.singh@gmail.com"><EmailIcon /></Link>
         </div>
         
         </div>
