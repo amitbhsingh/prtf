@@ -9,7 +9,7 @@ function Home(){
     <div className='home'>
       <div className='about'>
         <h2>Hi, This is Amit</h2>
-        <div className='prompt'><p>A software developer with a passion for helping,learning and creating</p>
+        <div className='prompt'><p>A web developer with a passion for helping fellow humans, learning and creating</p>
         <Link to="https://www.linkedin.com/in/amitbhsingh/"><LinkedInIcon /></Link>
         <Link to="https://github.com/amitbhsingh"><GithubIcon /></Link>
         <Link to="mailto:amit.bh.singh@gmail.com"><EmailIcon /></Link>
