@@ -10,9 +10,9 @@ function Home(){
       <div className='about'>
         <h2>Hi, This is Amit</h2>
         <div className='prompt'><p>A web developer with a passion for helping fellow humans, learning and creating</p>
-        <Link to="https://www.linkedin.com/in/amitbhsingh/"><LinkedInIcon /></Link>
-        <Link to="https://github.com/amitbhsingh"><GithubIcon /></Link>
-        <Link to="mailto:amit.bh.singh@gmail.com"><EmailIcon /></Link>
+        <Link to="https://www.linkedin.com/in/amitbhsingh/" target='_blank' rel='noreferrer'><LinkedInIcon /></Link>
+        <Link to="https://github.com/amitbhsingh" target='_blank' rel='noreferrer'><GithubIcon /></Link>
+        <Link to="mailto:amit.bh.singh@gmail.com" target='_blank' rel='noreferrer'><EmailIcon /></Link>
         </div>
         
         </div>
