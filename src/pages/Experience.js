@@ -35,10 +35,10 @@ function Experience(){
           </h3>
 
           <h4 className="vertical-timeline-element-subtitle">
-            Certification
+            
           </h4>
 
-          <p> Masters</p>
+          <p>Certification</p>
         </VerticalTimelineElement>
 
 
