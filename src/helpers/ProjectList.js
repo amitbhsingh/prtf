@@ -1,5 +1,5 @@
 import Proj1 from "../assets/Proj01task.png";
-import Proj2 from "../assets/proj2.jpg";
+import Proj2 from "../assets/proj2.png";
 // import Proj3 from "../assets/proj3.webp";
 // import Proj4 from "../assets/proj4.webp";
 // import Proj5 from "../assets/proj5.jpg";
@@ -12,9 +12,9 @@ export const ProjectList = [
     skills:"HTML,CSS,JavaScript",
   },
   {
-    name: "Ecommerce Website",
+    name: "Blogging website",
     image: Proj2,
-    skills: "React,Node.js,MongoDB",
+    skills:"React",
   },
   // {
   //   name: "Spotify Clone",
