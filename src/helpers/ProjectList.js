@@ -10,11 +10,13 @@ export const ProjectList = [
     name:"Task reminder",
     image:Proj1,
     skills:"HTML,CSS,JavaScript",
+    url:"https://github.com/amitbhsingh/task-reminder",
   },
   {
     name: "Blogging website",
     image: Proj2,
     skills:"React",
+    url:"https://blgn.netlify.app/",
   },
   // {
   //   name: "Spotify Clone",
