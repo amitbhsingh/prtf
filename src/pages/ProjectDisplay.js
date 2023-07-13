@@ -19,4 +19,4 @@ function ProjectDisplay() {
   );
 }
 
-export default ProjectDisplay;
+export default ProjectDisplay;``
