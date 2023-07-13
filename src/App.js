@@ -6,7 +6,7 @@ import Projects from  './pages/Projects'
 import Contact from './pages/Contact'
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import ProjectDisplay from './pages/ProjectDisplay';
+import { ProjectDisplay } from './pages/ProjectDisplay';
 
 function App() {
   return (
