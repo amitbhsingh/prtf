@@ -8,14 +8,14 @@ function ProjectDisplay() {
   const { id } = useParams();
   const project = ProjectList[id];
   return (
-    <div className="project">
+    <a href={project.url}><div className="project">
       <h1> {project.name}</h1>
       <img src={project.image} />
       <p>
         <b>Skills:</b> {project.skills}
       </p>
       <GitHubIcon />
-    </div>
+    </div></a>
   );
 }
 
